@@ -7,7 +7,6 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -36,8 +35,11 @@
     ]
   },
   "homepage": "https://zzunebye.github.io/breaking_bad_react/",
-  "root": "build/",  
-  "routes": { 
-    "/**": "index.html"  
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
